@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="${app:window_layer.Crank_Logo_Rotate.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Scale.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Swipe.grd_hidden}&#x0A;${control:alpha}&#x0A;${layer:custom_control.grd_hidden}&#x0A;${layer:icn_pinch.alpha}&#x0A;${layer:icn_rotate.alpha}&#x0A;${layer:icn_swipe.alpha}&#x0A;${layer:pinch_control.grd_hidden}&#x0A;${layer:rotate_control.grd_hidden}&#x0A;${layer:swipe_control.grd_hidden}&#x0A;${screen:swipe_layer.grd_hidden}&#x0A;${app:gesture_sample.window_layer.grd_hidden}" key="anim-GoToCustom"/>
+	<item value="30" key="pref.default_fps"/>
+	<item value="0.75" key="pref.editor_zoom"/>
+	<item value="${app:gesture_sample.window_layer.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Rotate.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Scale.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Swipe.grd_hidden}" key="anim-GoToSwipe1"/>
+	<item value="false" key="sbio.is_remote"/>
+	<item value="application" key="sbio.local"/>
+	<item value="${app:gesture_sample.window_layer.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Rotate.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Scale.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Swipe.grd_hidden}" key="anim-GoToCustom1"/>
+	<item value="${app:window_layer.Crank_Logo_Rotate.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Scale.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Swipe.grd_hidden}&#x0A;${control:alpha}&#x0A;${layer:custom_control.grd_hidden}&#x0A;${layer:icn_custom.alpha}&#x0A;${layer:icn_rotate.alpha}&#x0A;${layer:icn_swipe.alpha}&#x0A;${layer:pinch_control.grd_hidden}&#x0A;${layer:rotate_control.grd_hidden}&#x0A;${layer:swipe_control.grd_hidden}&#x0A;${screen:swipe_layer.grd_hidden}&#x0A;${app:gesture_sample.window_layer.grd_hidden}" key="anim-GoToPinch"/>
+	<item value="${app:window_layer.Crank_Logo_Rotate.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Scale.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Swipe.grd_hidden}&#x0A;${control:alpha}&#x0A;${layer:custom_control.grd_hidden}&#x0A;${layer:icn_custom.alpha}&#x0A;${layer:icn_pinch.alpha}&#x0A;${layer:icn_rotate.alpha}&#x0A;${layer:pinch_control.grd_hidden}&#x0A;${layer:rotate_control.grd_hidden}&#x0A;${layer:swipe_control.grd_hidden}&#x0A;${screen:swipe_layer.grd_hidden}&#x0A;${app:gesture_sample.window_layer.grd_hidden}" key="anim-GoToSwipe"/>
+	<item value="${app:window_layer.Crank_Logo_Rotate.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Scale.grd_hidden}&#x0A;${app:window_layer.Crank_Logo_Swipe.grd_hidden}&#x0A;${control:alpha}&#x0A;${layer:custom_control.grd_hidden}&#x0A;${layer:icn_custom.alpha}&#x0A;${layer:icn_pinch.alpha}&#x0A;${layer:icn_swipe.alpha}&#x0A;${layer:pinch_control.grd_hidden}&#x0A;${layer:rotate_control.grd_hidden}&#x0A;${layer:swipe_control.grd_hidden}&#x0A;${screen:swipe_layer.grd_hidden}&#x0A;${app:gesture_sample.window_layer.grd_hidden}" key="anim-GoToRotate"/>
+	<list key="pref.design_state_list_order">
+		<item value="Pinch"/>
+		<item value="Rotate"/>
+		<item value="Custom"/>
+		<item value="CustomUnlocked"/>
+	</list>
+</section>

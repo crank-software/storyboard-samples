@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.AnimateArcLeft" type="0x8">
+    <label>AnimateArcLeft animation complete</label>
+    <description>The animation named AnimateArcLeft has completed</description>
+  </event>
+  <event name="gre.animate.complete.AnimateArcMid" type="0x8">
+    <label>AnimateArcMid animation complete</label>
+    <description>The animation named AnimateArcMid has completed</description>
+  </event>
+  <event name="gre.animate.complete.AnimateArcRight" type="0x8">
+    <label>AnimateArcRight animation complete</label>
+    <description>The animation named AnimateArcRight has completed</description>
+  </event>
+  <event name="gre.animate.complete.AnimateArcRightOverlay" type="0x8">
+    <label>AnimateArcRightOverlay animation complete</label>
+    <description>The animation named AnimateArcRightOverlay has completed</description>
+  </event>
+  <event name="gre.animate.stop.AnimateArcLeft" type="0x8">
+    <label>AnimateArcLeft animation stopped</label>
+    <description>The animation named AnimateArcLeft has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.AnimateArcMid" type="0x8">
+    <label>AnimateArcMid animation stopped</label>
+    <description>The animation named AnimateArcMid has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.AnimateArcRight" type="0x8">
+    <label>AnimateArcRight animation stopped</label>
+    <description>The animation named AnimateArcRight has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.AnimateArcRightOverlay" type="0x8">
+    <label>AnimateArcRightOverlay animation stopped</label>
+    <description>The animation named AnimateArcRightOverlay has been stopped</description>
+  </event>
+</eventdefinitions>

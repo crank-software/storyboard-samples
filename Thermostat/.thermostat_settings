@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item key="pref.editor_zoom" value="1.0"/>
+	<item key="anim-show_5day" value="${app:weather_5day_layer.bar_5_day.grd_width}&#x0A;${app:weather_5day_layer.button_current.grd_hidden}&#x0A;${app:weather_5day_layer.Friday.grd_x}&#x0A;${app:weather_5day_layer.Monday.grd_x}&#x0A;${app:weather_5day_layer.Thursday.grd_x}&#x0A;${app:weather_5day_layer.Tuesday.grd_x}&#x0A;${app:weather_5day_layer.Wednesday.grd_x}&#x0A;${app:weather_current_layer.button_5day.grd_hidden}&#x0A;${app:weather_current_layer.current_conditions_bar.grd_width}&#x0A;${app:weather_current_layer.current_description.grd_x}&#x0A;${app:weather_current_layer.current_details.num}&#x0A;${app:weather_current_layer.current_temperature.grd_width}&#x0A;${app:weather_current_layer.current_temperature.grd_x}"/>
+	<item key="anim-slider_on" value="${control:x_off}"/>
+	<item key="anim-info" value="${app:main_nav_layer.demo_control.grd_y}&#x0A;${app:main_nav_layer.overlay.grd_hidden}"/>
+	<item key="sbio.is_remote" value="false"/>
+	<item key="anim-slider_off" value="${control:x_off}"/>
+	<item key="sbio.local" value="Thermostat"/>
+	<item key="anim-info_reversed" value="${app:main_nav_layer.demo_control.grd_y}&#x0A;${app:main_nav_layer.overlay.grd_hidden}"/>
+	<item key="anim-hide_mon_to_fri" value="${app:weather_5day_layer.bar_5_day.grd_width}&#x0A;${app:weather_5day_layer.button_current.grd_hidden}&#x0A;${app:weather_5day_layer.Friday.grd_x}&#x0A;${app:weather_5day_layer.Monday.grd_x}&#x0A;${app:weather_5day_layer.Thursday.grd_x}&#x0A;${app:weather_5day_layer.Tuesday.grd_x}&#x0A;${app:weather_5day_layer.Wednesday.grd_x}&#x0A;${app:weather_current_layer.button_5day.grd_hidden}&#x0A;${app:weather_current_layer.current_conditions_bar.grd_width}&#x0A;${app:weather_current_layer.current_description.grd_x}&#x0A;${app:weather_current_layer.current_details.num}&#x0A;${app:weather_current_layer.current_temperature.grd_width}&#x0A;${app:weather_current_layer.current_temperature.grd_x}"/>
+	<item key="pref.default_fps" value="60"/>
+</section>

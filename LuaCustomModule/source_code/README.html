@@ -1,0 +1,85 @@
+<html>
+<H1>Setting up the Custom Lua Module Demo</H1>
+
+<H2>Compiling the Source Code</H2>
+The code for the binary Lua module can be found <i>source_code</i> 
+directory of the project.  This source must be compiled into a shared
+library suitable for the target where the application will be run.  If the
+application is being developed for multiple platforms (embedded and simulation)
+then this may require that several builds be performed.<p>
+
+The source is straightforward and uses standard ANSI C89 types,
+but requires that the include path and library path include 
+the path to the Storyboard headers and libraries and the Storyboard Lua 
+headers and libraries.<p>
+
+Assuming a base path to a specific Storyboard Engine distribution is
+defined as <b>SB_ROOT</b>:
+<ul>
+<dl>
+<dt>Headers</dt>
+<dd>The Storyboard Lua header file <i>lua/lua.h</i> is located in 
+the <i>include</i> sub-directory of the runtime engine.</dd>
+<dt>Libraries</dt>
+<dd>The Storyboard Lua library <i>libsblua.[a|so|lib|dll]</i> is located in
+the <i>lib</i> sub-directory of the runtime engine.</dd>
+</dl><p>
+</ul>
+
+A sample Makefile for a build might look something like this:
+<pre>
+SB_ROOT=/Applications/Crank_Software/Storyboard_Engine/3.1.0.201304081236/macos-x86-opengles_2.0-obj
+SB_INC=-I$(SB_ROOT)/include
+SB_LIB=-L$(SB_ROOT)/lib -lsblua
+
+CFLAGS += -fPIC
+LDFLAGS += -shared
+
+sbmodule.so: sbmodule.c
+	$(CC) $(SB_INC) -o sbmodule sbmodule.c $(SB_LIB)
+</pre><p>
+
+The compiler and linker flags that are required to create a shared library may
+vary from platform to platform.  Consult your toolchain documentation for details
+on how to create shared libraries ready for dynamic loading.
+
+There is a sample Makefie provided.  This is a GNU makefile.  For building on Windows 
+you will need to install GNU Makefile for windows. 
+
+Sections have been provided that should allow for a quick start setup to build the module.  In 
+order to use the Makefile, it will need to be edited and the following variables will need to be 
+set:
+<pre>
+	SB_INSTALL
+	BUILD_TYPE
+	SB_ROOT
+	SB_TARGET_DIR
+</pre>
+
+The Makefile contains explanations for what those variables need to be set to. 
+
+<H4>Building with Visual Studio</H4>
+Clients building this sample for Visual Studio may require additional standard C 
+library headers (inttypes.h, stdint.h) depending on their version of Visual Studio.<br>
+
+Storyboard Suite provides the missing headers for these types in the 
+<i>include/[win32|wince|wincompact7]</i> sub-directories of the Windows 
+flavoured Storyboard Engine distributions.<p>
+
+<H2>Additional Lua and Lua Module Resources</H2>
+
+<ul>
+<li>The Lua C API for interacting with the Lua execution environment is well documented 
+in the <a src="http://www.lua.org/manual/5.1/">Lua  Reference Manual 
+(http://www.lua.org/manual/5.1/)</a>.
+
+<li>Additional information on creating Lua modules in both binary and non-binary forms
+can be found on the <a src="http://lua-users.org/wiki/BuildingModules">Lua Users
+Wiki</a>.  
+
+<li>The software developers guide <a src=http://www.lua.org/pil/">Programming
+in Lua<a> also contains a substantial amount of information on both the use of the
+Lua C API as well as the use of Lua in more detailed contexts.
+</ul>
+
+</html>

@@ -1,0 +1,6 @@
+info_layer.altitude_title.text,Altitude
+info_layer.dest_time_title.text,Local Time at Destination
+info_layer.distance_title.text,Distance to Destination
+info_layer.screen_title.text,Flight Information
+info_layer.speed_title.text,Ground Speed
+info_layer.time_title.text,Time to Destination

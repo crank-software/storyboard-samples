@@ -1,0 +1,18 @@
+
+KEYBOARD_SIZE_CHANGED##KEYBOARD_SIZE_CHANGED
+
+gre.animate.complete.ShrinkKeyboard##ShrinkKeyboard animation complete #The animation named ShrinkKeyboard has completed
+
+gre.animate.complete.menu_show##menu_show animation complete #The animation named menu_show has completed
+
+gre.animate.complete.cell_press##cell_press animation complete #The animation named cell_press has completed
+
+gre.animate.complete.zoom_in_press##zoom_in_press animation complete #The animation named zoom_in_press has completed
+
+gre.animate.complete.scale_up##scale_up animation complete #The animation named scale_up has completed
+
+gre.animate.complete.menu_hide##menu_hide animation complete #The animation named menu_hide has completed
+
+gre.animate.complete.zoom_out_press##zoom_out_press animation complete #The animation named zoom_out_press has completed
+
+gre.animate.complete.scale_down##scale_down animation complete #The animation named scale_down has completed

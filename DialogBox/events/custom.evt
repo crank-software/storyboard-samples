@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.auto_hide" type="0x0">
+    <label>auto_hide animation complete</label>
+    <description>The animation named auto_hide has completed</description>
+  </event>
+  <event name="gre.animate.complete.auto_show" type="0x0">
+    <label>auto_show animation complete</label>
+    <description>The animation named auto_show has completed</description>
+  </event>
+  <event name="gre.animate.complete.manual_hide" type="0x0">
+    <label>manual_hide animation complete</label>
+    <description>The animation named manual_hide has completed</description>
+  </event>
+  <event name="gre.animate.complete.manual_show" type="0x0">
+    <label>manual_show animation complete</label>
+    <description>The animation named manual_show has completed</description>
+  </event>
+  <event name="gre.animate.stop.auto_hide" type="0x8">
+    <label>auto_hide animation stopped</label>
+    <description>The animation named auto_hide has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.auto_show" type="0x8">
+    <label>auto_show animation stopped</label>
+    <description>The animation named auto_show has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.manual_hide" type="0x8">
+    <label>manual_hide animation stopped</label>
+    <description>The animation named manual_hide has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.manual_show" type="0x8">
+    <label>manual_show animation stopped</label>
+    <description>The animation named manual_show has been stopped</description>
+  </event>
+  <event name="timer.autopop" type="0x0">
+    <description>The timer named timer.autopop has fired</description>
+  </event>
+  <event name="timer.popuptimer" type="0x0">
+    <description>The timer named timer.popuptimer has fired</description>
+  </event>
+</eventdefinitions>

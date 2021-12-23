@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="0.25" key="pref.editor_zoom"/>
+	<item value="background" key="pref.default_control_name"/>
+	<item value="Textfield_bkgrd_layer" key="pref.default_layer_name"/>
+	<item value="0:0:0:" key="pref.default_fill_color"/>
+</section>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="timer.longpress" type="0x8">
+    <label>timer.longpress timer fired</label>
+    <description>The timer named timer.longpress has fired</description>
+  </event>
+</eventdefinitions>

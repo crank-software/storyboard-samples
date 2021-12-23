@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="0.25" key="pref.editor_zoom"/>
+	<item value="${app:pressure_gauge_layer.pressure_pointer_control.rot}&#x0A;${app:thermometer_layer.mercury.height}&#x0A;${app:voltage_layer.voltage_pointer_control.rot}" key="anim-pressure_dial_rotate"/>
+	<item value="${app:on_off_layer.off_button.img}&#x0A;${app:pressure_gauge_layer.pressure_pointer_control.rot}&#x0A;${app:thermometer_layer.mercury.height}&#x0A;${app:voltage_layer.voltage_pointer_control.rot}" key="anim-stop_all"/>
+</section>

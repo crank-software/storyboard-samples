@@ -1,0 +1,17 @@
+weather_5day_layer.button_current.text,AKTUELLES WETTER
+weather_5day_layer.Friday.day,Freitag
+weather_5day_layer.Monday.day,Montag
+weather_5day_layer.Thursday.day,Donnerstag
+weather_5day_layer.Tuesday.day,Dienstag
+weather_5day_layer.Wednesday.day,Mittwoch
+settings_layer.Background.text,Hintergrund
+settings_layer.Degrees.text,Degrees
+settings_layer.Language.text,Sprache
+filter_layer.Recommended_Air_Filter_Change.text,Empfohlene Luftfilter wechseln
+filter_layer.months.text,Monate
+filter_layer.days.text,Tage
+weather_current_layer.button_5day.text,5-TAGE -VORHERSAGE
+weather_current_layer.current_description.text,Klar
+weather_current_layer.current_details.text,"Wind: 22km/h NE 
+Luftfeuchtigkeit: 75% 
+UV Index: 0.2"

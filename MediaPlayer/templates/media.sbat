@@ -1,0 +1,65 @@
+<actiontemplates>
+    <template name="gra.media.new.audio">
+        <arguments>
+            <element name="channel_name" type="string" />
+  			<element name="media_name" type="string" />
+  			<element name="volume" type="integer" />
+  			<element name="update_interval" type="integer" />
+  			<element name="emit_time_events" type="integer" />
+  			<element name="extra_data" type="string" />
+        </arguments>
+    </template>
+    <template name="gra.media.new.video">
+        <arguments>
+            <element name="channel_name" type="string" />
+  			<element name="media_name" type="string" />
+  			<element name="volume" type="integer" />
+  			<element name="update_interval" type="integer" />
+  			<element name="emit_time_events" type="integer" />
+  			<element name="external_buffer_name" type="string" />
+  			<element name="object_name" type="string" />
+  			<element name="output_width" type="integer" />
+  			<element name="output_height" type="integer" />
+  			<element name="output_depth" type="integer" />
+  			<element name="extra_data" type="string" />
+        </arguments>
+    </template>    
+    <template name="gra.media.volume">
+        <arguments>
+            <element name="channel_name" type="string" />
+  			<element name="volume" type="integer" />
+  			<element name="emit_volume_event" type="integer" />
+        </arguments>
+    </template>    
+    <template name="gra.media.seek">
+        <arguments>
+            <element name="channel_name" type="string" />
+  			<element name="seek_num" type="integer" />
+  			<element name="emit_state_event" type="integer" />
+        </arguments>
+    </template>     
+    <template name="gra.media.stop">
+        <arguments>
+            <element name="channel_name" type="string" />
+  			<element name="emit_state_event" type="integer" />
+        </arguments>
+    </template>
+    <template name="gra.media.pause">
+        <arguments>
+            <element name="channel_name" type="string" />
+  			<element name="emit_state_event" type="integer" />
+        </arguments>
+    </template>
+    <template name="gra.media.resume">
+    	<arguments>
+    		<element name="channel_name" type="string" />
+    		<element name="emit_state_event" type="integer" />
+    	</arguments>
+    </template>
+    <template name="gra.media.connect">
+    </template>     
+</actiontemplates>
+
+
+
+

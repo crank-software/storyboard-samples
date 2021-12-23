@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modeltemplate>
+  <template class="com.crank.gdt.templates.generators.GroupTemplate" name="SBCSimpleRadioButton" version="1">
+    <description>This is a simple radio button implemented with two circle controls with no external dependencies and no animations.
+
+Add new buttons by copying the Button1 control in the group to Button2,Button3 within the group.</description>
+    <data>
+      <list>
+        <list>
+          <byte-array>UEsDBBQACAgIAAAAIQAAAAAAAAAAAAAAAAAJAAkAbW9kZWwuZ2RlVVQFAAEAAAAA7Vhdb9owFH3v
+r4isvTYl7diXgArQqj102lS67RE5jglXuHbmmBRa7b/PQAn5Mk0CWyctL0E69/rm3ONLfOTO5eKO
+WRGVIQjeRY7dQhblRHjA/S76dnt1+g5ZocLcw0xw2kVcoMveSUcKoaxZF61+kaW6iCGNzqIV9lRt
+DQPqOZ2zWRQHfRlk8zeZIerdYA/EYK6U4Kk1i22pVgpeFsMRhOAyug662dezLZxeQ5RkY5YltkKN
+ZDc8nQOI3scKvU7hUwM+geI6mCiIDP2KAP+cG2J7hSKr7caJcKuMjhHOqxhho4bAOZV9Fkxxukp2
+gReNg90aZePcEp0RZdXJPze5ki5UnuYKzWJY+vlEDRobktTucwWYAQ7Lt+QKwWzBx2IyKW4qsTv5
+dp7hcw2c/gBPTStJbBS3No8q21x768/b7QJmcUaEeq8eieBKCvZhN3y/amsrCFb6U2cvjyNu0eRW
+I7J4YSIjeKB2tVGzQ73GyOS09sCNFJaqz31Gy9PxXFbMxNOa2LVVuRFqvT0vTuQ7lQoIZlafgV+B
+ToRz+TEjHf4MnhfLXJnUJyHhQf8pq9Oa7qc1pFxRedAo3/8To/yRe0cc5Is3B0zQUDAhy/OQvmvU
+4+2F47Sd93WZfBVsOVLLKqoQkIRRO8ytSk7NBBgr4FTC/SSN7NWuSsJ1gBfP5pqKwZ00PuTZE+r8
+b/iQWp6j8Q+Nf2j8Q+MfGv/wf/oHMVdMn3WHW4gvqUJlXURKAVJw0aHBAihR9HqOc1WUBH8b97V4
+gaRhWKahytYlJBICVX5P2NxwNOvYaDAcDkZwFzCauFu8Fb5fKNr+5xOXajdc+lvJXExmR+nnzMDI
++HaV7PQPHOmp5+oquHfyG1BLBwiXAbyYjAIAAFEWAABQSwECFAAUAAgICAAAACEAlwG8mIwCAABR
+FgAACQAJAAAAAAAAAAAAAAAAAAAAbW9kZWwuZ2RlVVQFAAEAAAAAUEsFBgAAAAABAAEAQAAAAMwC
+AAAAAA==</byte-array>
+        </list>
+        <map>
+          <entry>
+            <string>scripts/SBCSimpleRadioButton.lua</string>
+            <byte-array>DQotLSBUaGlzIGlzIGp1c3QgdG8gbGltaXQgaG93IG11Y2ggbW9kZWwgcHJvYmluZyB3ZSBwZXJm
+b3JtDQpsb2NhbCBNQVhfUkFESU9fQlVUVE9OUyA9IDIwDQoNCi0tIFRoaXMgaXMgYSB1dGlsaXR5
+IGZ1bmN0aW9uIGZvciAnYWN0aXZhdGluZycgYSByYWRpbyBidXR0b24gcHJvZ3JhbW1hdGljYWxs
+eSBvbiBhIGdyb3VwLg0KZnVuY3Rpb24gU0JDU2ltcGxlUmFkaW9CdXR0b25TZXRTZWxlY3Rpb24o
+Z3JvdXAsIG5ld0lkKSANCiAgbG9jYWwgY29udHJvbEJhc2VOYW1lID0gIkJ1dHRvbiINCiAgaWYo
+Z3JvdXAgPT0gbmlsKSB0aGVuDQogICAgcmV0dXJuIGZhbHNlDQogIGVuZA0KICANCiAgLS0gU2V0
+IHRoZSBsb2NhbCB2YWx1ZSBvciBpZiBub3Qgc3BlY2lmaWVkLCBwdWxsIGl0IGZyb20gdGhlIHN0
+b3JlZCB2YXJpYWJsZQ0KICBsb2NhbCBpZEtleSA9IGdyb3VwIC4uICIudG9nZ2xlIg0KICBsb2Nh
+bCBjaGFuZ2VkID0gZmFsc2UNCiAgDQogIGxvY2FsIG9sZElkID0gZ3JlLmdldF92YWx1ZShpZEtl
+eSkNCiAgaWYob2xkSWQgPT0gbmlsIG9yIG9sZElkIH49IG5ld0lkKSB0aGVuDQogICAgZ3JlLnNl
+dF92YWx1ZShpZEtleSwgbmV3SWQpDQogICAgY2hhbmdlZCA9IHRydWUNCiAgZW5kDQogIA0KICAt
+LSBGbGlwIGFsbCBvZiB0aGUgaWRzIHRvIHNob3cgdGhlIHJpZ2h0IGNvbnRlbnQNCiAgbG9jYWwg
+ZGF0YSA9IHt9DQogIGZvciBpPTEsTUFYX1JBRElPX0JVVFRPTlMgZG8NCiAgICBsb2NhbCBrZXkg
+PSBzdHJpbmcuZm9ybWF0KCIlcy4lcyVkLmlubmVyQWxwaGEiLCBncm91cCwgY29udHJvbEJhc2VO
+YW1lLCBpKQ0KICAgIGxvY2FsIHZhbHVlID0gMA0KICAgIGlmKGkgPT0gbmV3SWQpIHRoZW4NCiAg
+ICAgIHZhbHVlID0gMjU1DQogICAgZW5kDQogICAgZGF0YVtrZXldID0gdmFsdWUNCiAgZW5kDQog
+IGdyZS5zZXRfZGF0YShkYXRhKQ0KICANCiAgcmV0dXJuIGNoYW5nZWQNCmVuZA0KDQotLSBDYWxs
+YmFjayBoYW5kbGVyIGZvciB0aGUgcmFkaW8gYnV0dG9uLiAgVGhpcyBjYWxsYmFjayBzaG91bGQg
+YmUgcGxhY2VkIG9uIHRoZSANCi0tIHJhZGlvIGJ1dHRvbiBjb250cm9sIHdpdGhpbiB0aGUgZ3Jv
+dXAgYW5kIHdpbGwgc3luY2hyb25pemUgYWxsIG9mIHRoZSBVSSBlbGVtZW50cw0KLS0gYW5kIGlu
+dm9rZSB0aGUgZ3JvdXAncyBjYWxsYmFjayBmdW5jdGlvbiB3aXRoIHRoZSByYWRpbyBidXR0b24g
+aW5mb3JtYXRpb24uDQpmdW5jdGlvbiBTQkNDQlNpbXBsZVJhZGlvQnV0dG9uVG9nZ2xlKG1hcGFy
+Z3MpDQogIGxvY2FsIGdyb3VwID0gbWFwYXJncy5jb250ZXh0X2dyb3VwDQogIGxvY2FsIGNvbnRy
+b2wgPSBtYXBhcmdzLmNvbnRleHRfY29udHJvbA0KICBsb2NhbCBiYXNlLCBpZCA9IHN0cmluZy5t
+YXRjaChjb250cm9sLCIoLispKCVkKykiKQ0KICBpZihiYXNlID09IG5pbCBvciBpZCA9PSBuaWwp
+IHRoZW4NCiAgICByZXR1cm4NCiAgZW5kDQogIA0KICBpZCA9IHRvbnVtYmVyKGlkKQ0KICANCiAg
+bG9jYWwgY2JWYXIgPSBncm91cCAuLiAiLmNhbGxiYWNrIg0KICBsb2NhbCBjYk5hbWUgPSBncmUu
+Z2V0X3ZhbHVlKGNiVmFyKQ0KICANCiAgbG9jYWwgY2hhbmdlZCA9IFNCQ1NpbXBsZVJhZGlvQnV0
+dG9uU2V0U2VsZWN0aW9uKGdyb3VwLCBpZCkNCiAgDQogIC0tIGNhbGwgdGhlIGNhbGxiYWNrIGZ1
+bmN0aW9uLCBpZiBzcGVjaWZpZWQNCiAgaWYoKG5vdCBjaGFuZ2VkKSBvciAoY2JOYW1lID09IG5p
+bCkgb3IgKGNiTmFtZSA9PSAiIikpIHRoZW4NCiAgICByZXR1cm4NCiAgZW5kDQogIA0KICBsb2Nh
+bCBjYkZuID0gX0dbY2JOYW1lXQ0KICBpZiAoY2JGbiA9PSBuaWwgb3IgdHlwZShjYkZuKSB+PSAi
+ZnVuY3Rpb24iKSB0aGVuDQogICAgcmV0dXJuDQogIGVuZA0KICANCiAgY2JGbihpZCwgY29udHJv
+bCkNCmVuZA0KDQo=</byte-array>
+          </entry>
+        </map>
+        <byte-array>iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAIAAACQKrqGAAAAw0lEQVR4nGNggAE5NS3f1IK0lsn5
+E+ZntE31Ty+S19BhQANMTEz2wTG5vXOBitCQU0QiCzs7QilQHVA0s3OGhbu/kKQUUIRfRMzExQso
+AlGNsBdoHlBUSkkFzTZRKVmIaqhLgO4DcoDmoTsLDIBmA2WB7gZxIP6A2IsJgC6B+BLEgTgfqzoI
+QCggwVQS3AoMAUhIicsooKkTEJeAhICilj5UCDlcgdIQe40c3dHDlYGk2IIASBoA+gDij4CsUixp
+gEgAAEgscHCgQGTHAAAAAElFTkSuQmCC</byte-array>
+        <list/>
+        <string>2fa1d3ee-0d18-42c5-8ce6-090db5a23a59</string>
+        <com.crank.gdt.core.templates.TemplateChangeHistory-array/>
+      </list>
+    </data>
+  </template>
+</modeltemplate>

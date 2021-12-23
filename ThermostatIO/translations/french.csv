@@ -1,0 +1,17 @@
+weather_5day_layer.button_current.text,MÉTÉO COURANT
+weather_5day_layer.Friday.day,vendredi
+weather_5day_layer.Monday.day,lundi
+weather_5day_layer.Thursday.day,jeudi
+weather_5day_layer.Tuesday.day,mardi
+weather_5day_layer.Wednesday.day,mercredi
+settings_layer.Background.text,Fond
+settings_layer.Degrees.text,Degrés
+settings_layer.Language.text,Langue
+filter_layer.Recommended_Air_Filter_Change.text,Recommandé changement du filtre à air
+filter_layer.months.text,mois
+filter_layer.days.text,jour
+weather_current_layer.button_5day.text,PRÉVISIONS À 5 JOURS
+weather_current_layer.current_description.text,partiellement nuageux
+weather_current_layer.current_details.text,"Vent: 22km/h NE
+Humidité: 75% 
+Indice UV: 0.2"

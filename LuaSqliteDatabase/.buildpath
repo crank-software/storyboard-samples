@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path=""/>
+	<buildpathentry external="true" kind="lib" path="/Applications/Crank/4_0/Storyboard_Designer/storyboard/configuration/org.eclipse.osgi/16/0/.cp/resources/lua/api.zip"/>
+	<buildpathentry external="true" kind="lib" path="/Applications/Crank/4_2/Storyboard_Designer/storyboard/configuration/org.eclipse.osgi/16/0/.cp/resources/lua/api.zip"/>
+	<buildpathentry external="true" kind="lib" path="/Applications/Crank/4_1/Storyboard_Designer/storyboard/configuration/org.eclipse.osgi/16/0/.cp/resources/lua/api.zip"/>
+	<buildpathentry external="true" kind="lib" path="/Applications/Crank/4_2/Storyboard_Designer/configuration/org.eclipse.osgi/18/0/.cp/resources/lua/api.zip"/>
+	<buildpathentry external="true" kind="lib" path="/Applications/Crank/4_2/Storyboard_Designer/configuration/org.eclipse.osgi/19/0/.cp/resources/lua/api.zip"/>
+	<buildpathentry external="true" kind="lib" path="/Users/thomas/workspaces/gde/com.crank.gdt.lua/resources/lua/api.zip"/>
+	<buildpathentry external="true" kind="lib" path="/programs/crank_4_2_1_2016_06_24/Storyboard_Designer/configuration/org.eclipse.osgi/19/0/.cp/resources/lua/api.zip"/>
+</buildpath>

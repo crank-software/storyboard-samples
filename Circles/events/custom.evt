@@ -1,0 +1,70 @@
+
+circ2_update##circ2_update
+
+circ1_update##circ1_update
+
+circ3_update##circ3_update
+
+circ6_update##circ6_update
+
+circ7_update##circ7_update
+
+circ_gauge_update##circ_gauge_update
+
+circ_01##circ_01
+
+circ_02##circ_02
+
+circ_03##circ_03
+
+circ_04##circ_04
+
+circ_06##circ_06
+
+gre.animate.complete.tick_fill##tick_fill animation complete #The animation named tick_fill has completed
+
+gre.animate.complete.loading_ring##loading_ring animation complete #The animation named loading_ring has completed
+
+gre.animate.complete.psi##psi animation complete #The animation named psi has completed
+
+gre.animate.complete.circle3##circle3 animation complete #The animation named circle3 has completed
+
+gre.animate.complete.circle_black_fade##circle_black_fade animation complete #The animation named circle_black_fade has completed
+
+gre.animate.complete.market_share##market_share animation complete #The animation named market_share has completed
+
+gre.animate.complete.90_percent##90_percent animation complete #The animation named 90_percent has completed
+
+gre.animate.complete.back_btn##back_btn animation complete #The animation named back_btn has completed
+
+gre.animate.complete.next_btn##next_btn animation complete #The animation named next_btn has completed
+
+gre.animate.complete.close##close animation complete #The animation named close has completed
+
+gre.animate.stop.tick_fill##tick_fill animation complete #The animation named tick_fill has been stopped
+
+gre.animate.stop.loading_ring##loading_ring animation complete #The animation named loading_ring has been stopped
+
+gre.animate.stop.psi##psi animation complete #The animation named psi has been stopped
+
+gre.animate.stop.circle3##circle3 animation complete #The animation named circle3 has been stopped
+
+gre.animate.stop.circle_black_fade##circle_black_fade animation complete #The animation named circle_black_fade has been stopped
+
+gre.animate.stop.market_share##market_share animation complete #The animation named market_share has been stopped
+
+gre.animate.stop.90_percent##90_percent animation complete #The animation named 90_percent has been stopped
+
+gre.animate.stop.back_btn##back_btn animation complete #The animation named back_btn has been stopped
+
+gre.animate.stop.next_btn##next_btn animation complete #The animation named next_btn has been stopped
+
+gre.animate.stop.close##close animation complete #The animation named close has been stopped
+
+gre.animate.complete.circle8_rotate##circle8_rotate animation complete #The animation named circle8_rotate has completed
+
+gre.animate.stop.circle8_rotate##circle8_rotate animation complete #The animation named circle8_rotate has been stopped
+
+gre.animate.complete.circle8##circle8 animation complete #The animation named circle8 has completed
+
+gre.animate.stop.circle8##circle8 animation complete #The animation named circle8 has been stopped

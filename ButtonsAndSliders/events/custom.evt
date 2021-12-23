@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.power_off" type="0x0">
+    <label>power_off animation complete</label>
+    <description>The animation named power_off has completed</description>
+  </event>
+  <event name="gre.animate.complete.power_on" type="0x0">
+    <label>power_on animation complete</label>
+    <description>The animation named power_on has completed</description>
+  </event>
+  <event name="gre.animate.stop.power_off" type="0x8">
+    <label>power_off animation stopped</label>
+    <description>The animation named power_off has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.power_on" type="0x8">
+    <label>power_on animation stopped</label>
+    <description>The animation named power_on has been stopped</description>
+  </event>
+  <event name="POWER_OFF" type="0x0"/>
+  <event name="POWER_ON" type="0x0"/>
+  <event name="START_PLAYING" type="0x0"/>
+</eventdefinitions>

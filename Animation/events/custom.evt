@@ -1,0 +1,24 @@
+
+gre.animate.complete.slide_content##slide_content animation complete #The animation named slide_content has completed
+
+gre.animate.complete.alpha_animation##alpha_animation animation complete #The animation named alpha_animation has completed
+
+gre.animate.complete.data_changes##data_changes animation complete #The animation named data_changes has completed
+
+gre.animate.complete.reveal##reveal animation complete #The animation named reveal has completed
+
+gre.animate.complete.Crank_Rocks##Crank_Rocks animation complete #The animation named Crank_Rocks has completed
+
+gre.animate.complete.rotation##rotation animation complete #The animation named rotation has completed
+
+gre.animate.stop.data_changes##data_changes animation complete #The animation named data_changes has been stopped
+
+gre.animate.stop.Crank_Rocks##Crank_Rocks animation complete #The animation named Crank_Rocks has been stopped
+
+gre.animate.stop.reveal##reveal animation complete #The animation named reveal has been stopped
+
+gre.animate.stop.alpha_animation##alpha_animation animation complete #The animation named alpha_animation has been stopped
+
+gre.animate.stop.rotation##rotation animation complete #The animation named rotation has been stopped
+
+gre.animate.stop.slide_content##slide_content animation complete #The animation named slide_content has been stopped

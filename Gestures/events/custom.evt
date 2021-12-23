@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.go_to_custom" type="0x8">
+    <label>go_to_custom animation complete</label>
+    <description>The animation named go_to_custom has completed</description>
+  </event>
+  <event name="gre.animate.complete.go_to_pinch" type="0x8">
+    <label>go_to_pinch animation complete</label>
+    <description>The animation named go_to_pinch has completed</description>
+  </event>
+  <event name="gre.animate.complete.go_to_rotate" type="0x8">
+    <label>go_to_rotate animation complete</label>
+    <description>The animation named go_to_rotate has completed</description>
+  </event>
+  <event name="gre.animate.complete.go_to_swipe" type="0x8">
+    <label>go_to_swipe animation complete</label>
+    <description>The animation named go_to_swipe has completed</description>
+  </event>
+  <event name="gre.animate.complete.new_animation" type="0x8">
+    <label>new_animation animation complete</label>
+    <description>The animation named new_animation has completed</description>
+  </event>
+  <event name="gre.animate.stop.go_to_custom" type="0x8">
+    <label>go_to_custom animation stopped</label>
+    <description>The animation named go_to_custom has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.go_to_pinch" type="0x8">
+    <label>go_to_pinch animation stopped</label>
+    <description>The animation named go_to_pinch has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.go_to_rotate" type="0x8">
+    <label>go_to_rotate animation stopped</label>
+    <description>The animation named go_to_rotate has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.go_to_swipe" type="0x8">
+    <label>go_to_swipe animation stopped</label>
+    <description>The animation named go_to_swipe has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.new_animation" type="0x8">
+    <label>new_animation animation stopped</label>
+    <description>The animation named new_animation has been stopped</description>
+  </event>
+  <event name="gre.gesture.down" type="0x0"/>
+  <event name="gre.gesture.left" type="0x0"/>
+  <event name="gre.gesture.right" type="0x0"/>
+  <event name="gre.gesture.up" type="0x0"/>
+  <event name="gre.mt2move" type="0x0">
+    <description>Two point move event</description>
+  </event>
+  <event name="gre.mt2pinch" type="0x0">
+    <description>Two point pinch gesture</description>
+  </event>
+  <event name="gre.mt2rotate" type="0x0">
+    <description>Two point rotate gesture</description>
+  </event>
+</eventdefinitions>

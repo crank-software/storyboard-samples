@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="CLOAK_OFF" type="0x0"/>
+  <event name="CLOAK_ON" type="0x0"/>
+  <event name="CRAWL_TEXT" type="0x0"/>
+  <event name="CRAWL_TEXT_STOP" type="0x0"/>
+  <event name="gre.animate.complete.Cloaking_OFF" type="0x0">
+    <label>Cloaking_OFF animation complete</label>
+    <description>The animation named Cloaking_OFF has completed</description>
+  </event>
+  <event name="gre.animate.complete.Cloaking_ON" type="0x0">
+    <label>Cloaking_ON animation complete</label>
+    <description>The animation named Cloaking_ON has completed</description>
+  </event>
+  <event name="gre.animate.complete.shematic_hide" type="0x0">
+    <label>shematic_hide animation complete</label>
+    <description>The animation named shematic_hide has completed</description>
+  </event>
+  <event name="gre.animate.complete.shematic_on" type="0x0">
+    <label>shematic_on animation complete</label>
+    <description>The animation named shematic_on has completed</description>
+  </event>
+  <event name="gre.animate.complete.shield2" type="0x0">
+    <label>shield2 animation complete</label>
+    <description>The animation named shield2 has completed</description>
+  </event>
+  <event name="gre.animate.complete.shield_status_hide" type="0x0">
+    <label>shield_status_hide animation complete</label>
+    <description>The animation named shield_status_hide has completed</description>
+  </event>
+  <event name="gre.animate.complete.shield_status_show" type="0x0">
+    <label>shield_status_show animation complete</label>
+    <description>The animation named shield_status_show has completed</description>
+  </event>
+  <event name="gre.animate.complete.Spin_Ship" type="0x0">
+    <label>Spin_Ship animation complete</label>
+    <description>The animation named Spin_Ship has completed</description>
+  </event>
+  <event name="gre.animate.complete.text" type="0x0">
+    <label>text animation complete</label>
+    <description>The animation named text has completed</description>
+  </event>
+  <event name="gre.animate.stop.Cloaking_OFF" type="0x8">
+    <label>Cloaking_OFF animation stopped</label>
+    <description>The animation named Cloaking_OFF has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.Cloaking_ON" type="0x8">
+    <label>Cloaking_ON animation stopped</label>
+    <description>The animation named Cloaking_ON has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.shematic_hide" type="0x8">
+    <label>shematic_hide animation stopped</label>
+    <description>The animation named shematic_hide has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.shematic_on" type="0x8">
+    <label>shematic_on animation stopped</label>
+    <description>The animation named shematic_on has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.shield2" type="0x0">
+    <label>shield2 animation stopped</label>
+    <description>The animation named shield2 has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.shield_status_hide" type="0x8">
+    <label>shield_status_hide animation stopped</label>
+    <description>The animation named shield_status_hide has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.shield_status_show" type="0x8">
+    <label>shield_status_show animation stopped</label>
+    <description>The animation named shield_status_show has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.Spin_Ship" type="0x8">
+    <label>Spin_Ship animation stopped</label>
+    <description>The animation named Spin_Ship has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.text" type="0x8">
+    <label>text animation stopped</label>
+    <description>The animation named text has been stopped</description>
+  </event>
+  <event name="SCHEMATIC_HIDE" type="0x0"/>
+  <event name="SCHEMATIC_SHOW" type="0x0"/>
+  <event name="SHIELDS_STOP" type="0x0"/>
+  <event name="timer.album_timer" type="0x0">
+    <description>The timer named timer.album_timer has fired</description>
+  </event>
+</eventdefinitions>

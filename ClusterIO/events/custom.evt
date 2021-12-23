@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event format="1u1 fuel 1u1 battery 1u1 oil 1u1 engine_code 4u1 odometer 4u1 trip" name="cluster_system_update" sorted="false" type="0x40">
+    <field name="battery">
+      <attr f="i" k="sb.max_value">100</attr>
+    </field>
+    <field name="engine_code"/>
+    <field name="fuel">
+      <attr f="i" k="sb.max_value">100</attr>
+    </field>
+    <field name="odometer">
+      <attr f="i" k="sb.max_value">999999999</attr>
+      <attr f="i" k="sb.min_value">0</attr>
+    </field>
+    <field name="oil">
+      <attr f="i" k="sb.max_value">1</attr>
+    </field>
+    <field name="trip">
+      <attr f="i" k="sb.max_value">999999999</attr>
+    </field>
+  </event>
+  <event format="2u1 speed 2u1 rpm" name="cluster_update" type="0x40">
+    <description>Updates the cluster UI with the latest information from the CAN bus</description>
+    <field name="rpm">
+      <attr f="i" k="sb.max_value">10000</attr>
+    </field>
+    <field name="speed">
+      <attr f="i" k="sb.max_value">200</attr>
+    </field>
+  </event>
+</eventdefinitions>

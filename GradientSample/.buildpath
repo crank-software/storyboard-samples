@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding="scripts/" kind="src" path=""/>
+	<buildpathentry kind="src" path="scripts"/>
+	<buildpathentry external="true" kind="lib" path="/Applications/Crank_Software_M13/Storyboard_Designer/Storyboard.app/Contents/Eclipse/configuration/org.eclipse.osgi/23/0/.cp/resources/lua/api.zip"/>
+</buildpath>

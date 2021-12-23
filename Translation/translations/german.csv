@@ -1,0 +1,6 @@
+info_layer.altitude_title.text,Höhe
+info_layer.dest_time_title.text,Örtliche Zeit Zielflughafen
+info_layer.distance_title.text,Entfernung zum Zielflughafen
+info_layer.screen_title.text,Fluginformationen
+info_layer.speed_title.text,Geschwindigkeit über Grund
+info_layer.time_title.text,Verbleibende Flugzeit

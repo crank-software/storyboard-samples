@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="0.25" key="pref.editor_zoom"/>
+	<item value="${app:ship_layer.ship.alpha}&#x0A;${app:ship_layer.ship.center_x}&#x0A;${app:ship_layer.ship.center_y}&#x0A;${app:ship_layer.ship.frag_shader}&#x0A;${app:ship_layer.ship.time}&#x0A;${app:ship_layer.ship.vertex_shader}" key="anim-Cloaking_ON"/>
+	<item value="${app:Screen1.shield_status.grd_alpha}&#x0A;${app:Screen1.shield_status.grd_hidden}&#x0A;${app:shield_status.tick_1.grd_hidden}&#x0A;${app:shield_status.tick_2.grd_hidden}&#x0A;${app:shield_status.tick_3.grd_hidden}&#x0A;${app:shield_status.tick_4.grd_hidden}&#x0A;${app:shield_status.tick_5.grd_hidden}&#x0A;${app:shield_status.tick_6.grd_hidden}&#x0A;${app:shield_status.tick_7.grd_hidden}" key="anim-shield_status_hide"/>
+	<item value="${app:Screen1.shield_status.grd_alpha}&#x0A;${app:Screen1.shield_status.grd_hidden}&#x0A;${app:shield_status.tick_1.grd_hidden}&#x0A;${app:shield_status.tick_2.grd_hidden}&#x0A;${app:shield_status.tick_3.grd_hidden}&#x0A;${app:shield_status.tick_4.grd_hidden}&#x0A;${app:shield_status.tick_5.grd_hidden}&#x0A;${app:shield_status.tick_6.grd_hidden}&#x0A;${app:shield_status.tick_7.grd_hidden}" key="anim-shield_status_show"/>
+	<item value="${app:ship_layer.ship.alpha}&#x0A;${app:ship_layer.ship.center_x}&#x0A;${app:ship_layer.ship.center_y}&#x0A;${app:ship_layer.ship.frag_shader}&#x0A;${app:ship_layer.ship.time}&#x0A;${app:ship_layer.ship.vertex_shader}" key="anim-Cloaking_OFF"/>
+	<item value="${app:schematic_layer.COMMUNICATIONS.num}&#x0A;${app:schematic_layer.HYPERDRIVE.num}&#x0A;${app:schematic_layer.ION_ENGINE.num}&#x0A;${app:schematic_layer.Lambda_Class_T_4a_shuttle.num}&#x0A;${app:schematic_layer.schematic_front.num}&#x0A;${app:schematic_layer.schematic_side.num}&#x0A;${app:schematic_layer.SHIELDS.num}" key="anim-shematic_on"/>
+	<item value="${app:Screen1.text_layer.grd_hidden}&#x0A;${app:text_layer.text.y_off}" key="anim-text"/>
+	<item value="${app:ship_layer.ship.theta}" key="anim-Spin_Ship"/>
+	<item value="${app:shield_layer.shield_001.num}&#x0A;${app:shield_layer.shield_001.var}&#x0A;${app:shield_layer.shield_002.num}&#x0A;${app:shield_layer.shield_002.var}&#x0A;${app:shield_layer.shield_003.num}&#x0A;${app:shield_layer.shield_003.var}" key="anim-shield2"/>
+	<item value="${app:schematic_layer.COMMUNICATIONS.num}&#x0A;${app:schematic_layer.HYPERDRIVE.num}&#x0A;${app:schematic_layer.ION_ENGINE.num}&#x0A;${app:schematic_layer.Lambda_Class_T_4a_shuttle.num}&#x0A;${app:schematic_layer.schematic_front.num}&#x0A;${app:schematic_layer.schematic_side.num}&#x0A;${app:schematic_layer.SHIELDS.num}" key="anim-shematic_hide"/>
+</section>

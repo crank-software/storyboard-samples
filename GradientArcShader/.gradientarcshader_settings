@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="60" key="pref.default_fps"/>
+	<item value="${control:endAngle}&#x0A;${control:startAngle}&#x0A;${control:rotation}&#x0A;${app:Layer.overlayRight.angle}" key="anim-AnimateArcRight"/>
+	<item value="1.0" key="pref.editor_zoom"/>
+	<item value="${control:endAngle}&#x0A;${control:endB}&#x0A;${control:endG}&#x0A;${control:endR}&#x0A;${control:lineWidth}&#x0A;${control:radius}&#x0A;${control:startAngle}" key="anim-AnimateArc"/>
+	<item value="${control:endAngle}&#x0A;${control:endB}&#x0A;${control:endG}&#x0A;${control:endR}&#x0A;${control:startAngle}" key="anim-AnimateArcMid"/>
+	<item value="${control:endAngle}&#x0A;${control:endB}&#x0A;${control:endG}&#x0A;${control:endR}&#x0A;${control:startAngle}" key="anim-AnimateArc_copy"/>
+	<item value="${control:endAngle}&#x0A;${control:endB}&#x0A;${control:endG}&#x0A;${control:endR}&#x0A;${control:lineWidth}&#x0A;${control:radius}&#x0A;${control:startAngle}" key="anim-AnimateArcLeft"/>
+	<item value="title" key="pref.default_control_name"/>
+	<item value="${app:Layer.arcRight.endAngle}&#x0A;${app:Layer.arcRight.rotation}&#x0A;${app:Layer.arcRight.startAngle}&#x0A;${app:Layer.overlayRight.angle}" key="anim-AnimateArcRightOverlay"/>
+	<item value="${app:Layer.overlayRight.angle}&#x0A;${app:Layer.arcRight.rotation}&#x0A;${app:Layer.arcRight.endAngle}&#x0A;${app:Layer.arcRight.startAngle}" key="anim-AnimateArc_copy_copy"/>
+</section>

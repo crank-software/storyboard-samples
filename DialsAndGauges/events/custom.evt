@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.pressure_dial_rotate" type="0x0">
+    <label>pressure_dial_rotate animation complete</label>
+    <description>The animation named pressure_dial_rotate has completed</description>
+  </event>
+  <event name="gre.animate.complete.stop_all" type="0x0">
+    <label>stop_all animation complete</label>
+    <description>The animation named stop_all has completed</description>
+  </event>
+  <event name="gre.animate.stop.pressure_dial_rotate" type="0x8">
+    <label>pressure_dial_rotate animation stopped</label>
+    <description>The animation named pressure_dial_rotate has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.stop_all" type="0x8">
+    <label>stop_all animation stopped</label>
+    <description>The animation named stop_all has been stopped</description>
+  </event>
+  <event name="play_step" type="0x0"/>
+  <event name="shut_down" type="0x0"/>
+</eventdefinitions>

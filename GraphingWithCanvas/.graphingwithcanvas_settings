@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="infoGroup" key="pref.default_group_name"/>
+	<item value="1.0" key="pref.editor_zoom"/>
+	<item value="30" key="screen_action.pref.fps"/>
+	<item value="infoBkg" key="pref.default_control_name"/>
+	<item value="controlScreen" key="pref.default_screen_name"/>
+	<item value="infoLayer1" key="pref.default_layer_name"/>
+	<item value="0:0:0:" key="pref.default_fill_color"/>
+</section>

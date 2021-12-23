@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.animate.complete.hide_mon_to_fri" type="0x8">
+    <label>hide_mon_to_fri animation complete</label>
+    <description>The animation named hide_mon_to_fri has completed</description>
+  </event>
+  <event name="gre.animate.complete.info" type="0x8">
+    <label>info animation complete</label>
+    <description>The animation named info has completed</description>
+  </event>
+  <event name="gre.animate.complete.info_reversed" type="0x8">
+    <label>info_reversed animation complete</label>
+    <description>The animation named info_reversed has completed</description>
+  </event>
+  <event name="gre.animate.complete.show_5day" type="0x8">
+    <label>show_5day animation complete</label>
+    <description>The animation named show_5day has completed</description>
+  </event>
+  <event name="gre.animate.complete.slider_off" type="0x8">
+    <label>slider_off animation complete</label>
+    <description>The animation named slider_off has completed</description>
+  </event>
+  <event name="gre.animate.complete.slider_on" type="0x8">
+    <label>slider_on animation complete</label>
+    <description>The animation named slider_on has completed</description>
+  </event>
+  <event name="gre.animate.stop.hide_mon_to_fri" type="0x8">
+    <label>hide_mon_to_fri animation stopped</label>
+    <description>The animation named hide_mon_to_fri has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.info" type="0x8">
+    <label>info animation stopped</label>
+    <description>The animation named info has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.info_reversed" type="0x8">
+    <label>info_reversed animation stopped</label>
+    <description>The animation named info_reversed has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.show_5day" type="0x8">
+    <label>show_5day animation stopped</label>
+    <description>The animation named show_5day has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.slider_off" type="0x8">
+    <label>slider_off animation stopped</label>
+    <description>The animation named slider_off has been stopped</description>
+  </event>
+  <event name="gre.animate.stop.slider_on" type="0x8">
+    <label>slider_on animation stopped</label>
+    <description>The animation named slider_on has been stopped</description>
+  </event>
+  <event name="TOGGLE_OFF" type="0x0"/>
+  <event name="TOGGLE_ON" type="0x0"/>
+</eventdefinitions>

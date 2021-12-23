@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event name="gre.media.timeupdate" type="0x0"/>
+  <event name="MediaPlay" type="0x40"/>
+  <event name="MediaResume" type="0x40"/>
+  <event name="MediaSeek" type="0x40"/>
+</eventdefinitions>

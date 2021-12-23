@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry excluding="scripts/" kind="src" path=""/>
+	<buildpathentry kind="src" path="scripts"/>
+	<buildpathentry external="true" kind="lib" path="/crank/dev/storyboard_designer/storyboard_designer-2020-12/bundles/com.crank.gdt.lua/resources/lua/api.zip"/>
+</buildpath>

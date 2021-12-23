@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item value="0.25" key="pref.editor_zoom"/>
+	<item value="${app:home_screen.timed_layer.grd_alpha}&#x0A;${app:home_screen.timed_layer.grd_hidden}" key="anim-auto_show"/>
+	<item value="${app:home_screen.timed_layer.grd_alpha}&#x0A;${app:home_screen.timed_layer.grd_hidden}" key="anim-auto_hide"/>
+	<item value="${app:home_screen.manual_layer.grd_hidden}&#x0A;${app:manual_layer.background_manual.overlay_bkg}&#x0A;${app:manual_layer.close_manual.close_alpha}&#x0A;${app:manual_layer.close_manual.grd_active}&#x0A;${app:manual_layer.popup_manual.grd_height}&#x0A;${app:manual_layer.popup_manual.grd_width}&#x0A;${app:manual_layer.popup_manual.txt_alpha}" key="anim-manual_hide"/>
+	<item value="${app:home_screen.manual_layer.grd_hidden}&#x0A;${app:manual_layer.background_manual.overlay_bkg}&#x0A;${app:manual_layer.close_manual.close_alpha}&#x0A;${app:manual_layer.popup_manual.grd_height}&#x0A;${app:manual_layer.popup_manual.grd_width}&#x0A;${app:manual_layer.popup_manual.txt_alpha}" key="anim-manual_show"/>
+</section>

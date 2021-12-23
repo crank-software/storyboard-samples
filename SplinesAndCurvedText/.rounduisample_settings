@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item key="sbio.is_remote" value="false"/>
+	<item key="sbio.local" value="RoundUISample"/>
+	<item key="pref.editor_zoom" value="1.0"/>
+	<item key="pref.default_control_name" value="Mask"/>
+	<item key="pref.default_fill_color" value="0:0:0:"/>
+	<item key="pref.default_layer_name" value="Scroller"/>
+	<section name="workingsets">
+		<section name="">
+			<item key="includeDesignStates" value="true"/>
+			<list key="elements">
+				<item value="Screen"/>
+			</list>
+			<section name="Screen">
+			</section>
+		</section>
+	</section>
+</section>
