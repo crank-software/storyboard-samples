@@ -794,7 +794,6 @@ function VKI:VKI_PopulateLanguageList(languageListTable)
   for i=1,#list do
     data[languageListTable..".language."..i..".1"] = self:KeyboardTypeName(list[i])
     data[languageListTable..".alpha."..i..".1"] = 0
-    data[languageListTable..".alpha1."..i..".1"] = 0
   end
 
   gre.set_data(data)

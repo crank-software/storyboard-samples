@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<eventdefinitions>
-  <event name="next_focus_index" type="0x40"/>
-  <event name="previous_focus_index" type="0x40"/>
-  <event name="screen_navigate" type="0x40"/>
-</eventdefinitions>

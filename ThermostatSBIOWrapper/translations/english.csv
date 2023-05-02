@@ -1,0 +1,17 @@
+weather_5day_layer.button_current.text,CURRENT WEATHER
+weather_5day_layer.Friday.day,Friday
+weather_5day_layer.Monday.day,Monday
+weather_5day_layer.Thursday.day,Thursday
+weather_5day_layer.Tuesday.day,Tuesday
+weather_5day_layer.Wednesday.day,Wednesday
+settings_layer.Background.text,Background
+settings_layer.Degrees.text,Degrees
+settings_layer.Language.text,Language
+filter_layer.Recommended_Air_Filter_Change.text,Recommended Air Filter Change
+filter_layer.months.text,months
+filter_layer.days.text,days
+weather_current_layer.button_5day.text,5 DAY FORECAST
+weather_current_layer.current_description.text,Partly Cloudy
+weather_current_layer.current_details.text,"Wind: 22km/hr NE
+Humidity: 75%
+UV Rating: 0.2"

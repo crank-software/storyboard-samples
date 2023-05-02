@@ -8,7 +8,7 @@ For more information email info@cranksoftware.com
  -- This is where we do all of the Database interaction and initialization.
  -- we connect, query, and update our target database table via the sqlite3 plugin
 local myenv = gre.env({ "target_os", "target_cpu" })
-if(myenv.target_os=="win32")then
+if(myenv.target_os=="win32" or myenv.target_os=="windows")then
   package.cpath = gre.SCRIPT_ROOT .. "\\" .. myenv.target_os .. "-" .. myenv.target_cpu .."\\luasql_sqlite3.dll;" .. package.cpath 
 else
   package.cpath = gre.SCRIPT_ROOT .. "/" .. myenv.target_os .. "-" .. myenv.target_cpu .."/luasql_sqlite3.so;" .. package.cpath 

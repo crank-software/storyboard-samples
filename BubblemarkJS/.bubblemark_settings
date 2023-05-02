@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="root">
+	<item key="pref.editor_zoom" value="1.0"/>
+	<item key="sbio.is_remote" value="false"/>
+	<item key="sbio.local" value="Bubblemark"/>
+	<section name="workingsets">
+		<item key="version" value="1"/>
+		<section name="">
+			<item key="includeDesignStates" value="true"/>
+			<list key="elements">
+				<item value="MainScreen"/>
+			</list>
+			<section name="MainScreen">
+			</section>
+		</section>
+	</section>
+</section>

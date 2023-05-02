@@ -1,9 +1,8 @@
 local myenv = gre.env({ "target_os", "target_cpu" })
-print(myenv.target_os, myenv.target_cpu)
 
-if myenv.target_os  == "android"  or myenv.target_os  == "macos"  or myenv.target_os  == "win32" then
+if myenv.target_os  == "android"  or myenv.target_os  == "macos"  or myenv.target_os  == "win32" or myenv.target_os  == "windows" or myenv.target_os  == "linux" then
   package.path = gre.SCRIPT_ROOT .. "/" .. myenv.target_os .. "-" .. myenv.target_cpu .."/?.lua;"..package.path
-  if myenv.target_os  == "win32" then
+  if myenv.target_os  == "win32" or myenv.target_os  == "windows" then
     package.cpath = gre.SCRIPT_ROOT .. "/" .. myenv.target_os .. "-" .. myenv.target_cpu .."/?.dll;"..package.cpath
   else
     package.cpath = gre.SCRIPT_ROOT .. "/" .. myenv.target_os .. "-" .. myenv.target_cpu .."/?.so;"..package.cpath

@@ -5,7 +5,6 @@ function CBInit(mapargs)
   gre.set_value("GraphPoints", poly_string)
 end
 
-local Spacer = "                                                                "
 local Days = {"FEB 28", "FEB 29", "MAR 1", "MAR 2", "MAR 3", "MAR 4", "MAR 5"}
 --- @param gre#context mapargs
 function CBDraw(mapargs)
@@ -13,5 +12,5 @@ function CBDraw(mapargs)
   local max_width = gre.get_value("Graph.Graph.grd_width")
   local day_width = (max_width - 512) / 7
   local day = math.floor(graph_attrs.xoffset / day_width * -1) + 1
-  gre.set_value("GraphTitle", Spacer.."AIR QUALITY ("..Days[day]..")")
+  gre.set_value("GraphTitle", "AIR QUALITY ("..Days[day]..")")
 end

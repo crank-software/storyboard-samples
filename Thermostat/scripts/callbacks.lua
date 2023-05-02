@@ -21,7 +21,7 @@ end
 function ChangeDegrees(state)
 	local data = {}
 	
-	if (state == 0) then
+	if (state == false) then
 		--fahrenheit
 		data["thermostat_layer.temp_scale.text"] = "Fahrenheit"
 		data["weather_current_layer.current_temperature.text"] = "3°F"

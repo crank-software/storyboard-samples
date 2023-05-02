@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventdefinitions>
+  <event format="2u1 num 2u1 unit" name="decrease_temperature" type="0x20">
+    <field name="num">
+      <attr f="i" k="sb.max_value">20</attr>
+    </field>
+    <field name="unit">
+      <attr f="i" k="sb.max_value">1</attr>
+      <attr f="i" k="sb.min_value">0</attr>
+    </field>
+  </event>
+  <event name="gre.animate.complete.hide_mon_to_fri" type="0x8">
+    <label>hide_mon_to_fri animation complete</label>
+    <description>The animation named hide_mon_to_fri has completed</description>
+  </event>
+  <event name="gre.animate.complete.info" type="0x8">
+    <label>info animation complete</label>
+    <description>The animation named info has completed</description>
+  </event>
+  <event name="gre.animate.complete.info_reversed" type="0x8">
+    <label>info_reversed animation complete</label>
+    <description>The animation named info_reversed has completed</description>
+  </event>
+  <event name="gre.animate.complete.show_5day" type="0x8">
+    <label>show_5day animation complete</label>
+    <description>The animation named show_5day has completed</description>
+  </event>
+  <event format="2u1 num 2u1 unit" name="increase_temperature" type="0x20">
+    <field name="num">
+      <attr f="i" k="sb.max_value">20</attr>
+    </field>
+    <field name="unit">
+      <attr f="i" k="sb.max_value">1</attr>
+    </field>
+  </event>
+  <event name="run_hide_mon_to_fri" type="0x10"/>
+  <event name="run_show_5day" type="0x10"/>
+  <event format="2s1 target_temperature 2s1 current_temperature 1u1 ac 1u1 fan 1u1 timer 1u1 units" name="thermostat_update" type="0x40">
+    <description>Thermostat data update event</description>
+    <field name="ac">
+      <attr f="i" k="sb.max_value">1</attr>
+    </field>
+    <field name="current_temperature">
+      <attr f="i" k="sb.max_value">35</attr>
+      <attr f="i" k="sb.min_value">8</attr>
+    </field>
+    <field name="fan">
+      <attr f="i" k="sb.max_value">1</attr>
+    </field>
+    <field name="target_temperature">
+      <attr f="i" k="sb.max_value">35</attr>
+      <attr f="i" k="sb.min_value">8</attr>
+    </field>
+    <field name="timer">
+      <attr f="i" k="sb.max_value">1</attr>
+    </field>
+    <field name="units">
+      <attr f="i" k="sb.max_value">1</attr>
+    </field>
+  </event>
+  <event name="toggle_ac" type="0x20"/>
+  <event name="toggle_fan" type="0x40"/>
+  <event name="TOGGLE_OFF" type="0x10"/>
+  <event name="TOGGLE_ON" type="0x10"/>
+  <event name="toggle_timer" type="0x20"/>
+  <event name="toggle_units" type="0x20"/>
+</eventdefinitions>
